@@ -45,4 +45,9 @@ internal class GCDKtTest {
         assertEquals(gcd(5,9),1)
     }
 
+    @Test
+    fun `gcd of 1183019 and 28851538, returns 17657`() {
+        assertEquals(gcd(1183019,28851538),17657)
+    }
+
 }
